@@ -1,3 +1,38 @@
+.body{
+	font-family: 'Baloo 2', cursive;
+}
 .bg-nav {
+	background-color: #F2D5F8;
+}
+.btn-color{
+	background-color: rgb(204, 157, 2);
+}
+.encabezado{
+	text-align: center;
+	padding: 15px;
+	
+}
+/* seccion mapa */
+.mapa {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding: 10px;
+}
+/* estilo formulario */
+.formulario {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+.footer{
+	text-align: center;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 25px;
+	width: 20px;
 	background-color: #F2D5F8;
 }
