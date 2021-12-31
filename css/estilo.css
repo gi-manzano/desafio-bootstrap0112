@@ -5,12 +5,17 @@
 	background-color: #F2D5F8;
 }
 .btn-color{
-	background-color: rgb(204, 157, 2);
+	background-color: rgb(219, 119, 4);
 }
 .encabezado{
 	text-align: center;
 	padding: 15px;
 	
+}
+
+.card-border {
+	border-color: rgb(132, 37, 209);
+	border-style: double;
 }
 /* seccion mapa */
 .mapa {
@@ -40,17 +45,16 @@
 /* media queris responsive movile */
 @media only screen and (min-width: 0px) and (max-width: 767px)
 {
-
-
-	.footer
+	
+	footer
 	{
-	text-align: center;
-	justify-content: space-between;
-	align-items: flex-start;
-	padding: 25px;
-	width: 20px;
+	align-content: center;
+	text-align: start;
+	width: 100%;
 	background-color: #F2D5F8;
+	font-size: 10px;
 	}
+	
 
 }
 
