@@ -3,9 +3,14 @@
 }
 .bg-nav {
 	background-color: #F2D5F8;
+	width: 100%;
 }
 .btn-color{
 	background-color: rgb(219, 119, 4);
+}
+p {
+	text-align: justify;
+	width: 100%;
 }
 .encabezado{
 	text-align: center;
@@ -28,6 +33,9 @@
 	padding: 10px;
 }
 /* estilo formulario */
+.contacto-img {
+	width: 100%;
+}
 .formulario {
 	display: flex;
 	align-items: flex-start;
@@ -38,8 +46,12 @@
 	justify-content: space-between;
 	align-items: flex-start;
 	padding: 25px;
-	width: 20px;
+	width: 100%;
 	background-color: #F2D5F8;
+}
+.footer-txt{
+	text-align: start;
+	font-size: 15px;
 }
 
 /* media queris responsive movile */
@@ -49,10 +61,10 @@
 	footer
 	{
 	align-content: center;
-	text-align: start;
+	text-align: justify;
 	width: 100%;
 	background-color: #F2D5F8;
-	font-size: 10px;
+	font-size: 15px;
 	}
 	
 
