@@ -22,6 +22,10 @@ p {
 	border-color: rgb(132, 37, 209);
 	border-style: double;
 }
+
+h1{
+	padding: 15px;
+}
 /* seccion mapa */
 .mapa {
 	display: flex;
@@ -50,7 +54,7 @@ p {
 	background-color: #F2D5F8;
 }
 .footer-txt{
-	text-align: start;
+	justify-items: center;
 	font-size: 15px;
 }
 
